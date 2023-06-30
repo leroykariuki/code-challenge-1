@@ -1,16 +1,16 @@
-mark = int(input("Enter the student's mark (between 0 and 100): "))
+marks = int(input("Enter the student's marks (between 0 and 100): "))
 
-if mark > 100 or mark < 0:
-    print("Invalid mark! Please enter a mark between 0 and 100.")
-elif mark > 79:
+if marks > 100 or mark < 0:
+    print("Invalid marks! Please enter a marks between 0 and 100.")
+else marks > 79:
     grade = "A"
-elif mark >= 60:
+else marks >= 60 <= 79:
     grade = "B"
-elif mark >= 50:
+else marks >= 59 <= 49:
     grade = "C"
-elif mark >= 40:
+else marks >= 40 <= 49:
     grade = "D"
-else:
+else marks < 40:
     grade = "E"
 
 print("Grade: " + grade)
