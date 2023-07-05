@@ -1,5 +1,6 @@
-// Prompt the user to enter the basic salary and benefits
 const prompt = require ("prompt-sync")({sigint: true})
+
+// Prompt the user to enter the basic salary and benefits
 var basicSalary = prompt("Enter the basic salary:");
 var benefits = prompt("Enter the benefits:");
 

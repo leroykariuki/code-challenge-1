@@ -1,5 +1,6 @@
-// Prompt the user to enter the speed of the car
 const prompt = require ("prompt-sync")({sigint: true})
+
+// Prompt the user to enter the speed of the car
 var speed = prompt("Enter the speed of the car:");
 
 // Convert the input to a number

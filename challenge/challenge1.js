@@ -1,5 +1,6 @@
-// Prompt the user to enter student marks
 const prompt = require ("prompt-sync")({sigint: true})
+
+// Prompt the user to enter student marks
 var marks = prompt("Enter student marks (between 0 and 100):");
 
 // Convert the input to a number
